@@ -10,6 +10,7 @@ int main()
     int fd1; 
 
     char* User2 = "/tmp/User2";
+  char str1[80], str2[80];
 
     mkfifo(User2, 0666);
 
